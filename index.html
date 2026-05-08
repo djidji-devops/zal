@@ -3,38 +3,28 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-
-<!-- ═══ PRIMARY SEO ═══ -->
 <title>Zalagaonica Obrenovac – Atlas | Otkup Zlata, Srebra, Tehnike | Brza Gotovina</title>
 <meta name="description" content="Zalagaonica Atlas Obrenovac – brza gotovina uz zalaganje zlata, srebra, satova, tehnike, alata i čekova. Fer procena, diskretna usluga. Vuka Karadžića 70. Pon–Sub 08–20h. ☎ 062 971 5896"/>
 <meta name="keywords" content="zalagaonica obrenovac, zalagaonica atlas obrenovac, otkup zlata obrenovac, otkup srebra obrenovac, otkup satova obrenovac, zalažem nakit obrenovac, brza gotovina obrenovac, pozajmica novca obrenovac, otkup tehnike obrenovac, otkup laptopa obrenovac, otkup telefona obrenovac, zalažem čekove obrenovac, zalagaonica beograd, otkup zlata beograd, zalagaonica"/>
 <meta name="author" content="Zalagaonica Atlas Obrenovac"/>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
 <link rel="canonical" href="https://www.zalagaonicaobrenovac.com/"/>
-
-<!-- ═══ GEO / LOCAL ═══ -->
 <meta name="geo.region" content="RS-00"/>
 <meta name="geo.placename" content="Obrenovac, Srbija"/>
 <meta name="geo.position" content="44.654436;20.199275"/>
 <meta name="ICBM" content="44.654436, 20.199275"/>
 <meta name="language" content="sr"/>
-
-<!-- ═══ OPEN GRAPH (Facebook, Viber, WhatsApp) ═══ -->
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://www.zalagaonicaobrenovac.com/"/>
 <meta property="og:title" content="Zalagaonica Atlas Obrenovac – Brza Gotovina"/>
 <meta property="og:description" content="Zalagajte zlato, srebro, satove, tehniku i čekove. Fer procena odmah, gotovina na licu mesta. Obrenovac, Vuka Karadžića 70."/>
-<meta property="og:image" content="https://www.zalagaonicaobrenovac.com/images/zlato.jpg"/>
+<meta property="og:image" content="https://www.zalagaonicaobrenovac.com/images/logo.png"/>
 <meta property="og:locale" content="sr_RS"/>
 <meta property="og:site_name" content="Zalagaonica Atlas Obrenovac"/>
-
-<!-- ═══ TWITTER CARD ═══ -->
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Zalagaonica Atlas Obrenovac – Brza Gotovina"/>
 <meta name="twitter:description" content="Otkup zlata, srebra, satova, tehnike i čekova. Fer procena, diskretna usluga. ☎ 062 971 5896"/>
-<meta name="twitter:image" content="https://www.zalagaonicaobrenovac.com/images/zlato.jpg"/>
-
-<!-- ═══ SCHEMA.ORG – LocalBusiness / PawnShop ═══ -->
+<meta name="twitter:image" content="https://www.zalagaonicaobrenovac.com/images/logo.png"/>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -43,7 +33,7 @@
   "alternateName": ["Zalagaonica Atlas", "Atlas Obrenovac"],
   "url": "https://www.zalagaonicaobrenovac.com",
   "logo": "https://www.zalagaonicaobrenovac.com/images/logo.png",
-  "image": "https://www.zalagaonicaobrenovac.com/images/zlato.jpg",
+  "image": "https://www.zalagaonicaobrenovac.com/images/logo.png",
   "description": "Zalagaonica Atlas Obrenovac nudi brzu gotovinu uz zalaganje zlata, srebra, satova, mobilnih telefona, laptopova, alata i čekova. Fer procena, diskretna usluga, isplata odmah.",
   "telephone": "+381629715896",
   "address": {
@@ -83,8 +73,6 @@
   "keywords": "zalagaonica obrenovac, otkup zlata obrenovac, otkup srebra, otkup satova, brza gotovina"
 }
 </script>
-
-<!-- ═══ FAQ SCHEMA (pomaže Google rich results) ═══ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -149,8 +137,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:999;
   border-bottom:1px solid var(--border);
   transition:var(--trans)}
 nav.scrolled{padding:10px 5%;box-shadow:0 4px 30px rgba(0,0,0,.7)}
-.nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
-.nav-brand img{height:44px;width:auto;filter:drop-shadow(0 2px 8px rgba(201,168,76,.4))}
+.nav-brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.nav-brand img.nav-logo{
+  height:48px;width:auto;
+  filter:drop-shadow(0 2px 12px rgba(201,168,76,.5));
+  transition:var(--trans)}
+.nav-brand img.nav-logo:hover{filter:drop-shadow(0 4px 20px rgba(201,168,76,.8));transform:scale(1.05)}
 .nav-brand .n1{font-size:11px;color:var(--muted);letter-spacing:2px;text-transform:uppercase}
 .nav-brand .n2{font-size:18px;font-weight:900;
   background:linear-gradient(90deg,var(--gold),var(--gold2));
@@ -213,6 +205,15 @@ nav.scrolled{padding:10px 5%;box-shadow:0 4px 30px rgba(0,0,0,.7)}
 @keyframes bob{0%,100%{transform:translateX(-50%) translateY(0)}
   50%{transform:translateX(-50%) translateY(8px)}}
 
+/* ── HERO LOGO ── */
+.hero-logo{
+  width:160px;height:auto;margin-bottom:24px;
+  filter:drop-shadow(0 6px 32px rgba(201,168,76,.6));
+  animation:fadeUp .7s both, pulse-glow 3s ease-in-out infinite 1s}
+@keyframes pulse-glow{
+  0%,100%{filter:drop-shadow(0 6px 32px rgba(201,168,76,.6))}
+  50%{filter:drop-shadow(0 8px 48px rgba(201,168,76,.9))}}
+
 /* ── STEPS ── */
 .steps{background:var(--dark2);padding:70px 5%}
 .steps-inner{max-width:900px;margin:0 auto;text-align:center}
@@ -231,11 +232,6 @@ nav.scrolled{padding:10px 5%;box-shadow:0 4px 30px rgba(0,0,0,.7)}
   font-family:serif}
 .step-title{font-size:1.05rem;font-weight:800;margin-bottom:8px;color:var(--gold2)}
 .step-text{font-size:.9rem;color:var(--muted);line-height:1.6}
-
-/* ── HERO LOGO ── */
-.hero-logo{width:130px;height:auto;margin-bottom:20px;
-  filter:drop-shadow(0 4px 24px rgba(201,168,76,.5));
-  animation:fadeUp .7s both}
 
 /* ── CATEGORIES ── */
 section.cats{padding:90px 5%;background:var(--dark3)}
@@ -311,7 +307,9 @@ section.cats{padding:90px 5%;background:var(--dark3)}
 /* ── FOOTER ── */
 footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%;
   display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px}
-.foot-brand{font-size:16px;font-weight:900;
+.foot-brand{display:flex;align-items:center;gap:10px}
+.foot-brand img{height:36px;width:auto;filter:drop-shadow(0 2px 8px rgba(201,168,76,.4))}
+.foot-brand span{font-size:14px;font-weight:900;
   background:linear-gradient(90deg,var(--gold),var(--gold2));
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .foot-copy{font-size:12px;color:var(--muted)}
@@ -324,10 +322,6 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .55s ease,transform .55s ease}
 .reveal.visible{opacity:1;transform:none}
 
-/* ══════════════════════════════
-   MOBILNI PRIKAZ
-══════════════════════════════ */
-
 /* ── Tablet (do 900px) ── */
 @media(max-width:900px){
   .cats-grid{grid-template-columns:1fr 1fr}
@@ -335,79 +329,58 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
 
 /* ── Mobilni (do 768px) ── */
 @media(max-width:768px){
-
-  /* Nav */
   nav{padding:10px 4%}
-  .nav-brand img{height:36px}
+  .nav-brand img.nav-logo{height:38px}
   .nav-brand .n1{display:none}
   .nav-brand .n2{font-size:15px}
   .nav-btns{gap:6px}
   .nav-btns a{padding:7px 10px;font-size:12px}
   .nav-btns .b-map{display:none}
-
-  /* Hero */
   .hero{padding:100px 6% 70px}
-  .hero-logo{width:100px}
+  .hero-logo{width:120px}
   .hero h1{font-size:1.9rem}
   .hero-sub{font-size:.95rem}
   .hero-badge{font-size:12px;padding:6px 14px}
   .hero-cta{flex-direction:column;align-items:center;gap:12px}
   .btn-gold,.btn-ghost{width:100%;max-width:320px;text-align:center;padding:13px 20px}
-
-  /* Steps */
   .steps{padding:55px 5%}
   .steps-grid{grid-template-columns:1fr;gap:0}
   .steps-grid::before{display:none}
-  .step{
-    display:flex;align-items:flex-start;gap:16px;
-    text-align:left;padding:20px 0;
-    border-bottom:1px solid rgba(201,168,76,.1)}
+  .step{display:flex;align-items:flex-start;gap:16px;text-align:left;padding:20px 0;border-bottom:1px solid rgba(201,168,76,.1)}
   .step:last-child{border-bottom:none}
   .step-num{width:52px;height:52px;font-size:20px;flex-shrink:0;margin:0}
-
-  /* Categories */
   section.cats{padding:55px 5%}
   .cats-grid{grid-template-columns:1fr;gap:20px}
   .cat-img{height:190px}
   .cat-icon-wrap{padding:18px 20px 14px}
   .cat-title{font-size:1.1rem}
   .cat-text{font-size:.88rem}
-
-  /* Info strip */
   .info-strip{padding:50px 5%}
   .info-grid{grid-template-columns:1fr 1fr;gap:24px}
-
-  /* Viber banner */
   .viber-banner{padding:40px 5%}
   .viber-banner h3{font-size:1.2rem}
   .btn-viber-big{padding:13px 24px;font-size:14px;width:100%;max-width:320px;justify-content:center}
-
-  /* CTA */
   .cta-wrap{padding:55px 5%}
   .cta{padding:38px 22px}
   .cta h2{font-size:1.5rem}
   .cta p{font-size:.93rem}
   .cta-btns{flex-direction:column;align-items:center;gap:12px}
   .cta-btns a{width:100%;max-width:300px;text-align:center}
-
-  /* Footer */
   footer{flex-direction:column;text-align:center;padding:28px 5%;gap:12px}
   .foot-links{justify-content:center;flex-wrap:wrap;gap:14px}
 }
 
-/* ── Mali telefoni (do 480px) ── */
 @media(max-width:480px){
   .nav-btns .b-insta{display:none}
   .nav-brand .n2{font-size:13px}
   .hero h1{font-size:1.65rem}
-  .hero-logo{width:80px}
+  .hero-logo{width:90px}
   .info-grid{grid-template-columns:1fr}
   .cats-grid{gap:16px}
   .cat-img{height:170px}
   .step-num{width:44px;height:44px;font-size:17px}
 }
 
-/* ── Veoma mali (do 360px) ── */
 @media(max-width:360px){
   .hero h1{font-size:1.45rem}
   .nav-btns a{padding:6px 8px;font-size:11px}
@@ -420,6 +393,7 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
 <!-- ═══════ NAV ═══════ -->
 <nav id="nav">
   <a class="nav-brand" href="#">
+    <img class="nav-logo" src="images/logo.png" alt="Zalagaonica Atlas Obrenovac Logo">
     <div>
       <span class="n1">Zalagaonica</span><br>
       <span class="n2">ATLAS OBRENOVAC</span>
@@ -436,6 +410,7 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
 <!-- ═══════ HERO ═══════ -->
 <section class="hero">
   <div class="hero-particles" id="particles"></div>
+  <img src="images/logo.png" alt="Atlas Zalagaonica Logo" class="hero-logo">
   <div class="hero-badge">💰 Brzo · Diskretno · Pouzdano</div>
   <h1>Brzo do <em>gotovine</em> –<br>bez komplikacija</h1>
   <p class="hero-sub">
@@ -479,9 +454,7 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
   <div class="s-label reveal">Šta prihvatamo</div>
   <h2 class="s-title reveal">Zalagaonica Obrenovac – Možete založiti, prodati ili kupiti</h2>
   <p class="s-sub reveal">Prihvatamo širok spektar predmeta uz uvek fer i transparentne uslove.</p>
-
   <div class="cats-grid">
-
     <div class="cat-card reveal">
       <img src="images/tehnika.jpg" alt="Tehnika i alati" class="cat-img">
       <div class="cat-icon-wrap">
@@ -493,7 +466,6 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
         <span class="cat-arrow">→</span>
       </div>
     </div>
-
     <div class="cat-card reveal">
       <img src="images/zlato.jpg" alt="Zlato srebro satovi" class="cat-img">
       <div class="cat-icon-wrap">
@@ -505,7 +477,6 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
         <span class="cat-arrow">→</span>
       </div>
     </div>
-
     <div class="cat-card reveal">
       <img src="images/cekovi.jpg" alt="Čekovi" class="cat-img">
       <div class="cat-icon-wrap">
@@ -517,7 +488,6 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
         <span class="cat-arrow">→</span>
       </div>
     </div>
-
   </div>
 </section>
 
@@ -583,7 +553,10 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
 
 <!-- ═══════ FOOTER ═══════ -->
 <footer>
-  <div class="foot-brand">ZALAGAONICA ATLAS OBRENOVAC</div>
+  <div class="foot-brand">
+    <img src="images/logo.png" alt="Atlas logo">
+    <span>ZALAGAONICA ATLAS OBRENOVAC</span>
+  </div>
   <div class="foot-copy">© 2025 · Vuka Karadžića 70, Obrenovac</div>
   <div class="foot-links">
     <a href="tel:+381629715896">Poziv</a>
@@ -594,7 +567,6 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
 </footer>
 
 <script>
-/* particles */
 const pc=document.getElementById('particles');
 for(let i=0;i<40;i++){
   const s=document.createElement('span');
@@ -604,10 +576,8 @@ for(let i=0;i<40;i++){
     opacity:${Math.random()*.3+.1}`;
   pc.appendChild(s);
 }
-/* nav scroll */
 window.addEventListener('scroll',()=>
   document.getElementById('nav').classList.toggle('scrolled',scrollY>40));
-/* reveal */
 const io=new IntersectionObserver(e=>{
   e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('visible');io.unobserve(x.target)}})
 },{threshold:.1});
