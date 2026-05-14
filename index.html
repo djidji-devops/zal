@@ -115,12 +115,14 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
 
 @media(max-width:900px){.cats-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:768px){
-  nav{padding:10px 4%;justify-content:center}
-  .nav-brand{justify-content:center}
+  nav{padding:10px 4%;justify-content:space-between;align-items:center}
+  .nav-brand{justify-content:flex-start;align-items:flex-start}
+  .nav-brand div{display:flex;flex-direction:column;gap:5px;line-height:1.1}
   .nav-brand img.nav-logo{display:none}
-  .nav-brand .n1{display:none}
-  .nav-brand .n2{font-size:20px;letter-spacing:2px}
-  .nav-btns{display:none}
+  .nav-brand .n1{display:block;font-size:11px;letter-spacing:2px;color:var(--muted)}
+  .nav-brand .n2{display:block;font-size:13px;letter-spacing:1px}
+  .nav-btns{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}
+  .nav-btns a{padding:6px 10px;font-size:11px;border-radius:6px}
   .hero{padding:100px 6% 70px}
   .hero-logo{width:120px}
   .hero h1{font-size:1.9rem}
@@ -166,7 +168,7 @@ footer{background:var(--dark);border-top:1px solid var(--border);padding:36px 5%
   <a class="nav-brand" href="#">
     <img class="nav-logo" src="images/logo.png" alt="Zalagaonica Atlas Obrenovac Logo">
     <div>
-      <span class="n1">Zalagaonica</span><br>
+      <span class="n1">Zalagaonica</span>
       <span class="n2">ATLAS OBRENOVAC</span>
     </div>
   </a>
